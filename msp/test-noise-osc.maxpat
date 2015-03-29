@@ -38,6 +38,59 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.0, 473.0, 120.0, 34.0 ],
+					"style" : "",
+					"text" : "ポップノイズ"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-56",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 990.0, 181.0, 146.0, 62.0 ],
+					"style" : "",
+					"text" : "BPFを通した\nホワイトノイズ"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-50",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 596.0, 195.0, 127.0, 34.0 ],
+					"style" : "",
+					"text" : "ホワイトノイズ"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 24.0,
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 369.0, 189.0, 75.0, 34.0 ],
+					"style" : "",
+					"text" : "sin波"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -831,7 +884,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 120.0, 203.25, 360.0 ],
+					"patching_rect" : [ 6.75, 120.0, 203.25, 405.0 ],
 					"proportion" : 0.39,
 					"rounded" : 20,
 					"style" : ""
@@ -978,7 +1031,7 @@
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 114.0, 693.0, 126.5, 693.0 ],
+					"midpoints" : [ 114.0, 459.0, 147.0, 459.0, 147.0, 693.0, 126.5, 693.0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
