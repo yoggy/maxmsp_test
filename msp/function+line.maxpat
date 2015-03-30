@@ -38,6 +38,34 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.0, 152.0, 188.0, 38.0 ],
+					"style" : "",
+					"text" : "shift + click : add preset\nalt+shift+click : remove preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 261.5, 209.0, 188.0, 38.0 ],
+					"style" : "",
+					"text" : "shift + click : remove key frame"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -195,7 +223,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.026667, 0, 90.425529, 0.973333, 0, 250.0, 0.08, 0, 372.340424, 1.0, 0, 595.74469, 0.04, 0, 792.553162, 0.96, 0, 1000.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.026667, 0, 90.425529, 0.973333, 0, 345.74469, 0.92, 0, 1000.0, 0.0, 0 ],
 					"id" : "obj-1",
 					"maxclass" : "function",
 					"numinlets" : 1,
